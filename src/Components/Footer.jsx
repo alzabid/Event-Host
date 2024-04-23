@@ -1,8 +1,10 @@
+
+
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-r from-violet-600 to-violet-300 mt-20">
+    <div className="bg-gradient-to-r from-violet-600 to-violet-300 mt-10 md:mt-20">
       <div className="max-w-7xl mx-auto">
-        <footer className="footer py-10 text-white">
+        <footer className="footer pl-10 md:pl-5 lg:pl-0 py-10 text-white">
           <aside>
             <button>
               <img
@@ -33,14 +35,14 @@ const Footer = () => {
           </nav>
           <nav>
             <h6 className="footer-title">Follow Us</h6>
-            <img className="w-16" src="" alt="" />
+           
             
           </nav>
         </footer>
 
         <hr />
 
-        <footer className="footer items-center p-4 text-white">
+        <footer className="footer items-center p-4 pl-10 md:pl-5 lg:pl-0 text-white">
           <aside className="items-center grid-flow-col">
             <p>Pay With</p>
             <img className="w-16" src="./img/bkash.png" alt="" />

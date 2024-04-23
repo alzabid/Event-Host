@@ -1,10 +1,13 @@
 const Scanner = () => {
   return (
-    <div className="max-w-7xl mx-auto py-20">
+    <div className="max-w-7xl mx-auto pt-10 md:pt-20">
       <div className=" text-center space-y-4 ">
-        <h1 className="text-5xl font-bold text-Black">Automated QR Scanner</h1>
-        <p className="text-2xl text-violet-500">
-          Scan & Verify The Attendees Directly By Our QR Scanning Solution.
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-Black">
+          Automated QR Scanner
+        </h1>
+        <p className=" md:text-xl text-violet-500">
+          Scan & Verify The Attendees Directly <br />
+          By Our QR Scanning Solution.
         </p>
       </div>
 

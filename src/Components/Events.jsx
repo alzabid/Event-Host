@@ -1,9 +1,11 @@
 const Events = () => {
   return (
-    <div className="max-w-7xl mx-auto pb-20">
+    <div className="max-w-7xl mx-auto px-6 lg:px-0 pt-10 md:pt-20">
       <div className=" text-center space-y-4 ">
-        <h1 className="text-5xl font-bold text-Black">Events</h1>
-        <div className="space-x-4 pt-5 pb-10">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-Black">
+          Events
+        </h1>
+        <div className=" text-sm md:text-base flex flex-wrap gap-3 md:gap-5 justify-center pt-5 pb-10">
           <button className=" bg-base-300 px-4 py-2 rounded-lg"> All</button>
           <button className=" bg-base-300 px-4 py-2 rounded-lg">
             {" "}
