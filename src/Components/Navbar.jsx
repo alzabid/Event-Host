@@ -42,9 +42,9 @@ const Navbar = () => {
               <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
             </div>
           </div>
-          <div className="w-8">
+          <button className="w-8">
             <img src="./icon/Group 7.png" alt="cart" />
-          </div>
+          </button>
         </div>
 
         {/* open or close icon */}

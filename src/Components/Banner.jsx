@@ -33,7 +33,7 @@ const Banner = () => {
       className=" my-10"
     >
       <SwiperSlide>
-        <div className="relative ">
+        <div className="relative">
           <img
             className="h-[30vh] md:h-[50vh] lg:h-[65vh] w-7xl mx-auto "
             src="/img/Rectangle 8.png"
