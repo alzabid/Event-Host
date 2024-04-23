@@ -1,8 +1,8 @@
 const Scanner = () => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto py-20">
       <div className=" text-center space-y-4 ">
-        <h1 className="text-4xl font-bold text-Black">Automated QR Scanner</h1>
+        <h1 className="text-5xl font-bold text-Black">Automated QR Scanner</h1>
         <p className="text-2xl text-violet-500">
           Scan & Verify The Attendees Directly By Our QR Scanning Solution.
         </p>
@@ -26,7 +26,7 @@ const Scanner = () => {
             <div className="card-body">
               <div className="avatar">
                 <div className="w-12 p-2 bg-white rounded-full">
-                  <img src="./icon/2.png" />
+                  <img src="./icon/qr.png" />
                 </div>
               </div>
               <h1 className="text-2xl font-bold text-Black">One time</h1>
@@ -53,7 +53,7 @@ const Scanner = () => {
                   <img src="./icon/4.png" />
                 </div>
               </div>
-              <h1 className="text-2xl font-bold text-Black">mail</h1>
+              <h1 className="text-2xl font-bold text-Black">Mail</h1>
               <p className="text-gray-500">
                 Send bulk personalized mail with attachments
               </p>

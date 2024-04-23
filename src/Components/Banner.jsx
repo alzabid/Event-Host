@@ -30,7 +30,7 @@ const Banner = () => {
       navigation={true}
       keyboard={true}
       modules={[Autoplay, EffectFade, Navigation, Pagination, Keyboard]}
-      className=" my-10"
+      className=" my-20"
     >
       <SwiperSlide>
         <div className="relative">
@@ -39,7 +39,7 @@ const Banner = () => {
             src="/img/Rectangle 8.png"
             alt=""
           />
-          <div className="absolute h-[30vh] md:h-[50vh] lg:h-[65vh] flex items-center lg:left-40 lg:right-40 top-0 rounded-full bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
+          <div className="absolute h-[30vh] md:h-[50vh] lg:h-[65vh] w-7xl mx-auto flex items-center lg:left-40 lg:right-40 top-0 rounded-3xl bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
             <div className="text-white space-y-7 px-10 lg:pl-32 w-full md:w-1/2">
               <h1 className="text-2xl md:text-2xl lg:text-4xl font-bold">
                 CMA Fest
