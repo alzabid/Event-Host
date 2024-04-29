@@ -71,7 +71,7 @@ const Events = () => {
                   </div>
                   <p>See Ticket</p>
                 </button>
-                <button className=" flex gap-2 bg-white px-4 py-1 text-sm rounded-lg">
+                <button className=" flex items-center gap-2 bg-white px-4 py-1 text-sm rounded-lg">
                   <p className=" text-2xl">20</p>
                   <p className="text-xs">
                     Seat <br />
@@ -126,7 +126,7 @@ const Events = () => {
                   </div>
                   <p>See Ticket</p>
                 </button>
-                <button className=" flex gap-2 bg-white px-4 py-1 text-sm rounded-lg">
+                <button className=" flex items-center gap-2 bg-white px-4 py-1 text-sm rounded-lg">
                   <p className=" text-2xl">20</p>
                   <p className="text-xs">
                     Seat <br />
@@ -181,7 +181,7 @@ const Events = () => {
                   </div>
                   <p>See Ticket</p>
                 </button>
-                <button className=" flex gap-2 bg-white px-4 py-1 text-sm rounded-lg">
+                <button className=" flex items-center gap-2 bg-white px-4 py-1 text-sm rounded-lg">
                   <p className=" text-2xl">20</p>
                   <p className="text-xs">
                     Seat <br />

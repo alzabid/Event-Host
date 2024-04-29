@@ -35,8 +35,7 @@ const Footer = () => {
           </nav>
           <nav>
             <h6 className="footer-title">Follow Us</h6>
-           
-            
+            <img src="/icon/social.png" alt="" />
           </nav>
         </footer>
 

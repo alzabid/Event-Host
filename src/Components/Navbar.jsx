@@ -11,18 +11,24 @@ const Navbar = () => {
   ];
   let [open, setOpen] = useState(false);
   return (
-    <div className="max-w-7xl lg:mx-auto md:mx-10 mx-2 sticky z-20 top-0 left-0 bg-gradient-to-r from-violet-600 to-violet-300 rounded-2xl mt-5 px-5">
+    <div className="max-w-7xl lg:mx-auto md:mx-10 mx-2 sticky z-20 top-0 md:relative bg-gradient-to-r from-violet-600 to-violet-300 rounded-2xl mt-3 md:mt-5 px-3 md:px-5">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         {/* logo */}
         <button className="">
-          <img src="./icon/EventHost.png" alt="EventHost" />
+          <img src="/icon/logo.png" alt="EventHost" />
         </button>
+
+        <img
+          className="invisible md:visible absolute md:left-[160px] lg:left-52"
+          src="https://i.ibb.co/RjxwBn4/Group-2.png"
+          alt=""
+        />
 
         {/* Navlinks */}
 
         <ul
-          className={`md:flex md:items-center absolute md:static bg-gray-700 md:bg-transparent left-0 w-full md:w-auto md:pl-0 pl-9 rounded-2xl  ${
-            open ? "top-[75px] " : "top-[-490px]"
+          className={`md:flex md:items-center absolute md:static bg-gray-700 md:bg-transparent left-0 w-full md:w-auto md:pl-0 pl-9 rounded-2xl transition-all duration-500 ease-in  ${
+            open ? "top-[75px] left-0 " : "top-[75px] left-[-490px]"
           }`}
         >
           {Links.map((link) => (
@@ -36,6 +42,13 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        <img
+          className=" invisible md:visible absolute md:right-[120px] lg:right-52"
+          src="https://i.ibb.co/RjxwBn4/Group-2.png"
+          alt=""
+        />
+
         <div className="flex items-center gap-3">
           <div className="avatar">
             <div className="w-8 rounded-full">
@@ -43,7 +56,7 @@ const Navbar = () => {
             </div>
           </div>
           <button className="w-8">
-            <img src="./icon/Group 7.png" alt="cart" />
+            <img src="/icon/cart.png" alt="cart" />
           </button>
         </div>
 
